@@ -16,5 +16,17 @@ public class KiwijuiceEasyExam {
         for(int i = 0; i <result.length;i++){
             System.out.print(result[i] + " ");
         }
+        System.out.println();
+        KiwijuiceEasy2 KiwiJuiceEasy2 = new KiwijuiceEasy2();
+        int[] result2 = KiwiJuiceEasy2.thePouring(capacities,bottle,fromId,toId);
+        for(int i = 0; i <result2.length;i++){
+            System.out.print(result2[i] + " ");
+        }
+        System.out.println();
+        KiwiJuiceEasy3 KiwiJuiceEasy3 = new KiwiJuiceEasy3();
+        int[] result3 = KiwiJuiceEasy3.thPouring(capacities,bottle,fromId,toId);
+        for(int i = 0; i <result2.length;i++){
+            System.out.print(result2[i] + " ");
+        }
     }
 }

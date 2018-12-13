@@ -1,0 +1,26 @@
+import java.util.*;
+class AplusBproblem{
+    public int calc(int a, int b){
+        return a + b;
+    }
+}
+
+Arrays.sort(array);
+
+String s = "abc";
+if (s.equals("abc")) System.out.println("equal");
+char c = s.charAt(1);
+s = "def" + s + "ghi";
+s = s.ubstring(3,3);
+
+void countStrings(String[] s)
+{
+    Map<String, Integer> hm = new HashMap<String, Integer>();
+    for(int i = 0; i<s.length; i++){
+        if(!hm.containsKey(s[i])) hm.put(s[i], 0);
+        hm.put(s[i], hm.get(s[i]) + 1);
+    }
+    for(String key : hm.keySet()){
+        System.out.println(key + " " + hm.get(key));
+    }
+}
