@@ -1,0 +1,27 @@
+Mr. White is very versatile person - absolutely everything is interesting to him.
+ - versatile : 다재다능한
+ - absolutely : 전적으로 모든걸, 모든 것
+
+Perhaps this is why he has many friends.
+ - perhaps : 아마, 어쩌면
+
+Quite unfortunately, however, none of his friends are versatile at all.
+ - Quite unfortunately : 안타깝도 당연하게도.
+
+Therefore, each time Mr. White organizes a party, it's a big problem for him to decide whom to invite so that the party is interesting to everybody.
+ - Mr.White는 파티를 열때마다, 모두가 흥미로운 파티가 되는 것을 결정하는 것이 가장 큰 문제입니다.
+ - decide : 결정하다.
+ - whom : 누구에게나
+ - invite : 초대
+
+Not that Mr.White has a lot of experience in organizing parties, he knows for sure that a party will be interesting if and only if there's a topic interesting to each of the invited friends
+ - 파티에서 많은 경험을 가지고 있는 Mr.White은, 그는 알게 되었습니다. 초대한 친구들 모두가 공통된 흥미 있는 화제가 있을 때 파티를 즐긴다는 것을 알았습니다.
+
+You will be given String[] first and second.
+ - 문자열 배열 String[] first, second가 주어집니다.
+
+The i-th friend of Mr. White is interested in topics first[i] and second[i].
+ - Mr.White의 i번째 친구는 fist[i], second[i]의 토픽에 흥미가 있습니다.
+
+Return the largest number of friends that Mr.White can invite to his party so that the party will be interesting.
+ - 그의 파티에 참가 하는 사람들이 즐거운 파티가 될수있는 최대의 명수를 구하여 출력하세요.

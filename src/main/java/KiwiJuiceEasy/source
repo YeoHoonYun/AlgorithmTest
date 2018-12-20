@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------------------------------------------------
+Taro has prepared delicious kiwi fruit juice.
+ - has prepared : ~을 준비하다.
+
+He poured it into N bottles numbered from 0 to N-1.
+ - poured : 붓다.
+
+The capacity of the i-th bottle is capacities[i] liters, and he poured bottles[i] liters of kiwi juice into this bottle.
+ - 이때 i번째의 병의 용량은 capacities[i] 리터이며, 그가 i번째 병에 넣은 키위 주스의 양을 botties[i]리터라고 합니다.
+
+Now he wants to redistribute juice in the bottles.
+ - redistribute : 재분배 하다.
+
+In order to do this, he will perform M operations numbered from 0 to M-1 in the order in which he will perform them.
+ - In order to do : ~하기 위해서
+ - perform : 수행하다
+ - numbered : 번호가 붙은
+
+For the i-th operation, he will pour kiwi juice from bottle from Id[i] to bottle toId[i].
+ - i번째의 조작은 그가 fromID[i]부터 병toId[i]에 키위 주스를 넣는 것을 의미합니다.
+
+He will stop pouring when bottle fromId[i] becomes empty or bottle toId[i] becomes full, whichever happens earlier.
+ - 그는 더이상 키위주스를 넣지 않을 것입니다. (toId[i]의 병이 비어 있거나, fromId[i]의 병이 꽉찰때가 되면,)
+
+Return an int[] that contains exactly N elements and whose i-th element is the amount of kiwi juice in the i=th bottle after all pouring operations are finished.
+ - N개의 요소를 가진 정수 배열 int[]를 리턴해주세요. 배열의 i번째 요소는 모든 주스를 쏟는 작업이 완료되고 i번째 병에 남아있는 키위주스의 양입니다.
+-------------------------------------------------------------------------------------------------------------------------
